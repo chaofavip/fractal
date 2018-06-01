@@ -5,7 +5,7 @@
  * @time: 2018-05
  */
 
-namespace Runner\FastdFractal;
+namespace Moment\Fractal;
 
 use League\Fractal\TransformerAbstract;
 

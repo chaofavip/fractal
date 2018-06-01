@@ -5,7 +5,7 @@
  * @time: 2018-04
  */
 
-namespace Runner\FastdFractal;
+namespace Moment\Fractal;
 
 use League\Fractal\Pagination\PaginatorInterface;
 use League\Fractal\Serializer\ArraySerializer;

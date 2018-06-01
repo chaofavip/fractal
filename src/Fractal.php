@@ -5,7 +5,7 @@
  * @time: 2018-04
  */
 
-namespace Runner\FastdFractal;
+namespace Moment\Fractal;
 
 use FastD\Http\Response;
 use League\Fractal\Manager;

@@ -1,5 +1,5 @@
 {
-    "name": "runner/fastd-fractal",
+    "name": "moment/fractal",
     "description": "fractal for FastD framework",
     "type": "library",
     "license": "MIT",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Runner\\FastdFractal\\": "src"
+            "Moment\\Fractal\\": "src"
         },
         "files": [
             "src/helpers.php"

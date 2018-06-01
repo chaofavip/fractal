@@ -1,4 +1,4 @@
-# fastd fractal
+# fractal
 
 ### Usage
 
@@ -7,7 +7,7 @@
 <?php
 namespace Transformer;
 
-use Runner\FastdFractal\AbstractTransformer;
+use Moment\Fractal\AbstractTransformer;
 
 class AppTransformer extends AbstractTransformer
 {
