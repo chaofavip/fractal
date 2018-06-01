@@ -95,14 +95,42 @@ class Fractal
     /**
      * @return Manager
      */
-    public function manager()
+    public function manager(): Manager
     {
         return $this->manager;
     }
 
     /**
+     * if you want to change the manager and save it
+     *
+     * @param Manager $manager
+     *
+     * @return $this
+     */
+    public function setManager(Manager $manager)
+    {
+        $this->manager = $manager;
+
+        return $this;
+    }
+
+    /**
+     * Parse Include String.
+     *
+     * @param array|string $includes Array or csv string of resources to include
+     *
+     * @return $this
+     */
+    public function parseIncludes($includes)
+    {
+        $this->manager->parseIncludes($includes);
+
+        return $this;
+    }
+
+    /**
      * @param ResourceAbstract $resource
-     * @param int              $status
+     * @param int $status
      *
      * @return JsonResponse
      */
